@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import {SaleEntity} from '@dataEngine/appEntities/classes/saleEntity';
+import {SaleEntity} from '@engine/Entity';
 
 console.log('Meaning of life: ', SaleEntity);
 
