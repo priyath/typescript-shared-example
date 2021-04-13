@@ -1,7 +1,6 @@
-export class SaleEntity {
-		private saleName;
+import {round, e} from 'mathjs'
 
-		constructor() {
-			this.saleName = "New Sale";
-		}
-}
+export const getRound = () => {
+		return round(e, 3);
+};
+

@@ -9,7 +9,7 @@
     "moduleResolution": "node",
     "outDir": "../api/dist/shared"
   },
-  "include": ["dataEngine"],
+  "include": ["engine"],
   "exclude": ["node_modules", "lib"],
   "references": []
 }
