@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": ["es2015", "es2017", "dom"],
+    "module": "commonjs",
+    "target": "es6",
+    "declaration": true,
+    "declarationMap": true,
+    "composite": true,
+    "moduleResolution": "node",
+    "outDir": "../api/dist/shared"
+  },
+  "include": ["dataEngine"],
+  "exclude": ["node_modules", "lib"],
+  "references": []
+}

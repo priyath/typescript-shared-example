@@ -2,9 +2,9 @@ const express = require( "express" );
 const app = express();
 const port = 8080; // default port to listen
 
-import {SaleEntity} from '@engine/Entity';
+import {getRound} from '@engine/Entity';
 
-console.log('Meaning of life: ', SaleEntity);
+console.log('Meaning of life: ', getRound());
 
 // define a route handler for the default home page
 app.get( "/", ( req, res ) => {

@@ -15,6 +15,9 @@
     },
     "lib": ["es2015", "es2017", "dom"]
   },
+  "references": [
+    { "path": "../shared/tsconfig.build-api.json" }
+  ],
   "include": [
     "src/**/*.ts"
   ],
